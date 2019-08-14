@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>first-exercice-course</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header-nav">
+        <img class="logo" src="https://gomycode.tn/images/section2GMCLogo.png" alt="logo">
+        <ul class="navbar">
+            <li> <a href="./index.html" class="item-menu">Home</a></li>
+            <li><a href="./course.html" class="item-menu">Courses</a> </li>
+            <li><a href="./contact.html" class="item-menu">Contact</a> </li>
+        </ul>
+    </header>
+    <main>
+        <div class="image-home">
+            <h1 class="titre-courses">COURSES</h1>
+        </div>
+
+        <div class="bloc-image-courses">
+            <img src="./res/courses1.PNG" alt="courses1">
+            <img src="./res/course2.PNG" alt="course2">
+            <img src="./res/course3.PNG" alt="course3">
+        </div>
+        <div class="bloc-image-courses">
+            <img src="./res/course4.PNG" alt="course4">
+            <img src="./res/course5.PNG" alt="course5">
+            <img src="./res/course6.PNG" alt="course6">
+        </div>
+        <div class="bloc-image-courses">
+            <img src="./res/course7.PNG" alt="course7">
+            <img src="./res/course8.PNG" alt="course8">
+            <img src="./res/course9.PNG" alt="course9">
+        </div>
+        <h1 class="titre-home">Feedback</h1>
+
+        <div class="fin-courses">
+            <div class="textar">
+
+                <button onclick="makebold()">B</button>
+                <button onclick="makeitalic()">I</button>
+                <button onclick="makeunderline()">Underline</button>
+                <select onchange="changesize()" name='' id='selectsize'>
+                    <option>20px</option>
+                    <option>30px</option>
+                    <option>40px</option>
+                </select>
+                <select onchange="changefamily()" id="selectfamily">
+                    <option>Arial</option>
+                    <option>Verdana</option>
+                    <option>Geneva</option>
+                </select>
+            </div>
+            <textarea name="" id="mytextarea" cols="70" rows="5"></textarea>
+
+        </div>
+    </main>
+</body>
+<script src="./js/main.js"></script>
+
+</html>
